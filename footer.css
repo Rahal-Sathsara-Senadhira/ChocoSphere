@@ -1,0 +1,117 @@
+.footer {
+    background-color: var(--footer-background-color);
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    gap: 1.5rem;
+    padding: 0 10%;
+}
+
+.footer .logo {
+    height: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    padding: 6rem 0 0 0;
+}
+
+.footer .footerlogo {
+    height: 5rem;
+}
+
+.footer .box-container{
+    margin-bottom: 4rem;
+}
+.footer .box-container .box .findings {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.footer .box-container .box .findings:last-child {
+    margin-bottom: 0;
+}
+
+.footer .box-container .box .findings img {
+    height: 2.5rem;
+}
+
+.footer .box-container .box .findings span {
+    font-family: sebino_regular;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    color: var(--secondary-font-color);
+}
+
+.footer .box-container .box h3 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--secondary-font-color);
+}
+
+.footer .box-container .box .socialMediaIcons {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.footer .box-container .box .socialMediaIcons a {
+    border-radius: 50rem;
+    padding: 1.5rem;
+    border: .1rem solid var(--main-color);
+    display: inline-flex;
+    margin: 0 .5rem;
+}
+
+.footer .box-container .box .socialMediaIcons a img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.footer .box-container .box .socialMediaIcons a:hover {
+    background-color: var(--main-color);
+}
+
+.footer .box-container .openingHours label {
+    color: var(--secondary-font-color);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-family: sebino_regular;
+    font-weight: bold;
+}
+
+.footer .box-container .openingHours label:last-child {
+    margin-bottom: 0;
+}
+
+.footer .box-container .openingHours span {
+    color: var(--main-color);
+    font-family: Marcellus_Regular;
+
+}
+
+.footer .box-container .openingHours {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+
+.footer .credit{
+    font-size: 1.7rem;
+    color: var(--font-gray-color);
+    text-align: center;
+    padding: 0 0 3rem 0;
+}
+
+.footer .credit hr{
+    width: 100%;
+    height: .1rem;
+    background-color: var(--font-gray-color);
+    color: var(--font-gray-color);
+    margin-bottom: 1rem;
+}
