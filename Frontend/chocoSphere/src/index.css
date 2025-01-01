@@ -1,0 +1,302 @@
+/* global css */
+
+
+
+@font-face {
+  font-family: Marcellus_Regular;
+  src: url(Resources/Fonts/Marcellus-Regular.ttf);
+}
+
+@font-face {
+  font-family: sebino_bold;
+  src: url(Resources/Fonts/sebino-bold.ttf);
+}
+
+@font-face {
+  font-family: sebino_regular;
+  src: url(Resources/Fonts/sebino-regular.ttf);
+}
+
+@font-face {
+  font-family: BeautifulBloom_Regular;
+  src: url(Resources/Fonts/BeautifulBloom-Regular.ttf);
+}
+
+@font-face {
+  font-family: DM_sans;
+  src: url(Resources/Fonts/DMSANS-VARIABLEFONT_OPSZ\,WGHT.TTF);
+}
+
+@font-face {
+  font-family: tuesday_night;
+  src: url(Resources/Fonts/TuesdayNight-Regular.otf);
+}
+
+:root {
+  --main-color: #C19D56;
+  --main-font-color: #181616;
+  --secondary-font-color: #ffffff;
+  --footer-background-color: #161616;
+  --font-gray-color: #4D4D4D;
+  --font-light-brown-color: #d596633e;
+  --background-light-gray: #eceaea;
+  --background-secondary-color:#FCF8F4;
+  --body-background-color: #ffffff;
+  --cart-background-color: #ffffff;
+  --shadow-1: 0 0 .5rem .2rem rgba(0, 0, 0, 0.05);
+}
+
+:root {
+  --button-style-1-color: #C19D56;
+  --button-style-1-font-color: #181616;
+  --button-style-2-font-color: #181616;
+  --button-style-1-font-family: sebino_regular;
+}
+
+* {
+  font-family: Marcellus_Regular;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-padding-top: 9em;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 5rem;
+}
+
+/* cart scroll */
+.header .cart-items-container::-webkit-scrollbar {
+  width: 0;
+}
+
+.header .cart-items-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.header .cart-items-container::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 5rem;
+}
+
+body {
+  background-color: var(--body-background-color);
+}
+
+.button-style-1 {
+  font-size: 2rem;
+  letter-spacing: 0.05rem;
+  background-color: transparent;
+  color: var(--button-style-1-font-color);
+  text-transform: uppercase;
+  border: 1px solid var(--button-style-1-color);
+  font-weight: bold;
+  font-family: var(--button-style-1-font-family);
+  cursor: pointer;
+  padding: 2rem 3.5rem;
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+}
+
+.button-style-1::before {
+  content: '';
+  top: 0;
+  left: 100%;
+  width: 1px;
+  height: calc(100% + 4px);
+  border-right: 1px solid var(--button-style-1-color);
+  transform: translate(6px, 10px);
+  color: var(--button-style-1-color);
+  position: absolute;
+  pointer-events: none;
+  transition: .7s cubic-bezier(0.65, 0, 0.6, 1.55);
+}
+
+.button-style-1::after {
+  content: '';
+  top: 100%;
+  left: 0;
+  width: calc(100% + 4px);
+  height: .1rem;
+  border-bottom: 1px solid var(--button-style-1-color);
+  transform: translate(10px, 6px);
+  color: var(--button-style-1-color);
+  position: absolute;
+  pointer-events: none;
+  transition: .7s cubic-bezier(0.65, 0, 0.6, 1.55);
+}
+
+.button-style-1:hover:after {
+  transform: translate(-10px, 6px);
+  width: 0;
+}
+
+.button-style-1:hover:before {
+  height: 0;
+  transform: translate(6px, -10px);
+}
+
+.button-style-2 {
+  display: inline-block;
+  padding: 2rem 5rem;
+  font-size: 2rem;
+  font-family: sebino_bold;
+  color: var(--secondary-font-color);
+  background-color: var(--main-color);
+  cursor: pointer;
+  border: 1px solid var(--main-color);
+}
+
+.button-style-2:hover {
+  background-color: white;
+  color: var(--button-style-2-font-color);
+}
+
+.hamburgerMenu {
+  background: transparent;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  min-width: 3.5rem;
+  display: none;
+}
+
+.hamburgerMenu .hamburgerMenu_container {
+  transition: all .4s;
+  width: 3.5rem;
+  height: 3.5rem;
+
+}
+
+.hamburgerMenu span {
+  position: absolute;
+  background: var(--main-color);
+  display: inline-block;
+  border-radius: .3rem;
+  left: 12.5%;
+  right: 0;
+  width: 75%;
+  height: .3rem;
+
+  &:nth-of-type(1) {
+      top: calc(.5rem + .3rem);
+  }
+
+  &:nth-of-type(2) {
+      top: calc(1.4rem + .2rem);
+  }
+
+  &:nth-of-type(3) {
+      top: calc(2.3rem + .2rem);
+  }
+}
+
+
+.hamburgerMenu.active .hamburgerMenu_container {
+  transform: rotate(360deg);
+}
+
+
+.hamburgerMenu.active span {
+  &:nth-of-type(1) {
+      width: 45%;
+      top: 1.8rem;
+      left: 1.4rem;
+      transform: translateY(.6rem) rotate(-45deg);
+  }
+
+  &:nth-of-type(2) {
+      opacity: 0;
+  }
+
+  &:nth-of-type(3) {
+      width: 45%;
+      top: 3rem;
+      left: 1.4rem;
+      transform: translateY(-0.6rem) rotate(45deg);
+  }
+}
+
+.home-title span{
+  font-family: DM_sans;
+  font-size: 1.4rem;
+  line-height: 1.25;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  color: var(--main-color);
+  margin: 0px 0px 1.2rem 0px;
+}
+
+.home-title span::after{
+  content: '';    
+  width: 100%;
+  display: inline-block;
+  margin-left: calc(1rem + .7px);
+  vertical-align: middle;
+  width: 3rem;
+  height: 1px;
+  background-color: var(--main-color);
+  margin-bottom: 5px;
+}
+
+.home-title h3{
+  font-size: 5rem;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 100;
+  color: var(--main-font-color);
+}
+
+.home-title-1{
+  text-align: center;
+}
+
+.home-title-1 span::before{
+  content: '';    
+  width: 100%;
+  display: inline-block;
+  margin-right: calc(1rem + .7px);
+  vertical-align: middle;
+  width: 3rem;
+  height: 1px;
+  background-color: var(--main-color);
+  margin-bottom: 5px;
+}
+
+.Aos{
+  opacity: 0;
+  transition: all .8s;
+  filter: blur(.5rem);
+}
+
+.show{
+  opacity: 1;
+  filter: blur(0);
+
+}
