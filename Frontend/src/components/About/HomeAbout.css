@@ -1,0 +1,51 @@
+
+.about {
+    padding: 15rem 0;
+    z-index: 0;
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.about .row .image {
+    flex: 1 1 45rem;
+}
+
+.about .row .image img {
+    width: 100%;
+}
+
+.about .row .content {
+    flex: 1 1 45rem;
+    padding: 0 15rem 0 3rem;
+}
+
+.about .row .content .signature {
+    font-family: tuesday_night;
+    font-size: 4rem;
+    color: var(--main-color);
+    font-weight: 100;
+}
+
+.about .row .content .founder {
+    font-family: DM_sans;
+    color: var(--font-gray-color);
+    font-size: 1.4rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about p {
+    margin: 17px 0px 0px 0px;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-family: DM_sans;
+    color: var(--font-gray-color);
+    padding-bottom: 3rem;
+    text-transform: initial;
+}

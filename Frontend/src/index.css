@@ -1,0 +1,166 @@
+/* global css */
+
+
+
+@font-face {
+  font-family: Marcellus_Regular;
+  src: url(Fonts/Marcellus-Regular.ttf);
+}
+
+@font-face {
+  font-family: sebino_bold;
+  src: url(Fonts/sebino-bold.ttf);
+}
+
+@font-face {
+  font-family: sebino_regular;
+  src: url(Fonts/sebino-regular.ttf);
+}
+
+@font-face {
+  font-family: BeautifulBloom_Regular;
+  src: url(Fonts/BeautifulBloom-Regular.ttf);
+}
+
+@font-face {
+  font-family: DM_sans;
+  src: url(Fonts/DMSANS-VARIABLEFONT_OPSZ\,WGHT.TTF);
+}
+
+@font-face {
+  font-family: tuesday_night;
+  src: url(Fonts/TuesdayNight-Regular.otf);
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(Fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(Fonts/Roboto-Medium.ttf);
+}
+
+:root {
+  --main-color: #C19D56;
+  --main-font-color: #181616;
+  --secondary-font-color: #ffffff;
+  --footer-background-color: #161616;
+  --font-gray-color: #4D4D4D;
+  --font-light-brown-color: #d596633e;
+  --background-light-gray: #eceaea;
+  --background-secondary-color:#FCF8F4;
+  --body-background-color: #ffffff;
+  --cart-background-color: #ffffff;
+  --shadow-1: 0 0 .5rem .2rem rgba(0, 0, 0, 0.05);
+}
+
+:root {
+  --button-style-1-color: #C19D56;
+  --button-style-1-font-color: #181616;
+  --button-style-2-font-color: #181616;
+  --button-style-1-font-family: sebino_regular;
+}
+
+* {
+  font-family: Marcellus_Regular;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-padding-top: 9em;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 5rem;
+}
+
+
+body {
+  background-color: var(--body-background-color);
+  min-height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+.home-title span{
+  font-family: DM_sans;
+  font-size: 1.4rem;
+  line-height: 1.25;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  color: var(--main-color);
+  margin: 0px 0px 1.2rem 0px;
+}
+
+.home-title span::after{
+  content: '';    
+  width: 100%;
+  display: inline-block;
+  margin-left: calc(1rem + .7px);
+  vertical-align: middle;
+  width: 3rem;
+  height: 1px;
+  background-color: var(--main-color);
+  margin-bottom: 5px;
+}
+
+.home-title h3{
+  font-size: 5rem;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 100;
+  color: var(--main-font-color);
+}
+
+.home-title-1{
+  text-align: center;
+}
+
+.home-title-1 span::before{
+  content: '';    
+  width: 100%;
+  display: inline-block;
+  margin-right: calc(1rem + .7px);
+  vertical-align: middle;
+  width: 3rem;
+  height: 1px;
+  background-color: var(--main-color);
+  margin-bottom: 5px;
+}
+
+@keyframes fadein {
+  0%{
+opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

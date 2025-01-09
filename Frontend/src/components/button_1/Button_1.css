@@ -1,0 +1,55 @@
+
+.button-style-1 {
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+    background-color: transparent;
+    color: var(--button-style-1-font-color);
+    text-transform: uppercase;
+    border: 1px solid var(--button-style-1-color);
+    font-weight: bold;
+    font-family: var(--button-style-1-font-family);
+    cursor: pointer;
+    padding: 2rem 3.5rem;
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .button-style-1::before {
+    content: '';
+    top: 0;
+    left: 100%;
+    width: 1px;
+    height: calc(100% + 4px);
+    border-right: 1px solid var(--button-style-1-color);
+    transform: translate(6px, 10px);
+    color: var(--button-style-1-color);
+    position: absolute;
+    pointer-events: none;
+    transition: .7s cubic-bezier(0.65, 0, 0.6, 1.55);
+  }
+  
+  .button-style-1::after {
+    content: '';
+    top: 100%;
+    left: 0;
+    width: calc(100% + 4px);
+    height: .1rem;
+    border-bottom: 1px solid var(--button-style-1-color);
+    transform: translate(10px, 6px);
+    color: var(--button-style-1-color);
+    position: absolute;
+    pointer-events: none;
+    transition: .7s cubic-bezier(0.65, 0, 0.6, 1.55);
+  }
+  
+  .button-style-1:hover:after {
+    transform: translate(-10px, 6px);
+    width: 0;
+  }
+  
+  .button-style-1:hover:before {
+    height: 0;
+    transform: translate(6px, -10px);
+  }
+  

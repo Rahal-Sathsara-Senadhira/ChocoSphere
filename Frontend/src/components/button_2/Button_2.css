@@ -1,0 +1,15 @@
+.button-style-2 {
+  display: inline-block;
+  padding: 2rem 5rem;
+  font-size: 2rem;
+  font-family: sebino_bold;
+  color: var(--secondary-font-color);
+  background-color: var(--main-color);
+  cursor: pointer;
+  border: 1px solid var(--main-color);
+}
+
+.button-style-2:hover {
+  background-color: white;
+  color: var(--button-style-2-font-color);
+}

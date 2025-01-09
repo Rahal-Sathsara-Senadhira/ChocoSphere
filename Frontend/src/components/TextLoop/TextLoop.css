@@ -1,0 +1,29 @@
+.text-slider-container {
+    padding-block: .8rem;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+
+}
+
+.text-slider {
+
+    animation: textscroll 25s linear infinite;
+    flex-shrink: 0;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.text-slider span {
+    font-size: 15rem;
+    text-transform: uppercase;
+    color: var(--font-light-brown-color);
+}
+
+
+@keyframes textscroll {
+    to {
+        transform: translateX(-100%);
+    }
+}
