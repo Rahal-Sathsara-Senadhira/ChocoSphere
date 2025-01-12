@@ -28,7 +28,9 @@
   left: 0;
   right: 0;
   background-color: var(--body-background-color);
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.121);
   z-index: 1000;
+  position: fixed;
 }
 
 .Navbar-mobile {
@@ -286,7 +288,7 @@
     font-size: 2rem;
   }
 
-  .nav-container a:last-child {
+  .nav-container .nav-last {
     padding-bottom: 2rem !important;
   }
   .nav-container a:hover:after {

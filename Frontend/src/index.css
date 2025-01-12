@@ -156,11 +156,35 @@ a{
   margin-bottom: 5px;
 }
 
+.spacer{
+  height: 10rem;
+  width: 100%;
+}
+
 @keyframes fadein {
   0%{
 opacity: 0;
   }
   100%{
     opacity: 1;
+  }
+}
+
+
+@keyframes tilt {
+  0%{
+      transform: rotate(0deg);
+  }
+  25%{
+      transform: rotate(-45deg);
+  }
+  50%{
+      transform: rotate(45deg);
+  }
+  75%{
+      transform: rotate(-45deg);
+  }
+  100%{
+      transform: rotate(0deg);
   }
 }

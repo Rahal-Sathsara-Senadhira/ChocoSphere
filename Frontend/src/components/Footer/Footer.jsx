@@ -38,9 +38,9 @@ const Footer = () => {
 
             <div className="box box1 openingHours">
 
-                <label for=""><span>mon – fri: </span>9.00 am – 6.00pm</label>
-                <label for=""><span>sat: </span>11.00 am – 6.00pm</label>
-                <label for=""><span>sun: </span>11.00 am – 6.00pm</label>
+                <label ><span>mon – fri: </span>9.00 am – 6.00pm</label>
+                <label ><span>sat: </span>11.00 am – 6.00pm</label>
+                <label ><span>sun: </span>11.00 am – 6.00pm</label>
 
             </div>
 

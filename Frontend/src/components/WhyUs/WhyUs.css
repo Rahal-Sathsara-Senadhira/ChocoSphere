@@ -1,0 +1,99 @@
+
+.whyus {
+    padding: 8rem 0;
+    background-color: var(--background-secondary-color);
+}
+
+.whyus .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.whyus .row .image {
+    flex: 1 1 50rem;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+.whyus .row .image img {
+    width: 100%;
+    z-index: 2;
+}
+
+.whyus .row .image .circle{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    height: 50rem;
+    width: 50rem;
+    border-radius: 50rem;
+    background-color: var(--body-background-color);
+    z-index: 1;
+}
+
+#circletext{
+    color: var(--main-color);
+    font-size: 1.5rem;
+    animation: animate 20s infinite linear;
+    overflow: hidden;
+}
+
+.whyus .container {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    z-index: 1;
+    padding: 2rem;
+}
+
+
+.whyus .row .content {
+    flex: 1 1 50rem;
+    padding: 0 3rem 0 10%;
+}
+
+.whyus .row .content .reason {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+
+.whyus .row .content .reason img{
+height: 7rem;
+display: inline-flex;
+}
+
+.whyus .row .content .reason-content{
+    padding-left: 3rem;
+}
+.whyus .row .content .reason h3{
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.whyus .row .content .founder {
+    font-family: DM_sans;
+    color: var(--font-gray-color);
+    font-size: 1.4rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.whyus p {
+    margin: 1.5rem 0px 0px 0px;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-family: DM_sans;
+    color: var(--font-gray-color);
+    text-transform: initial;
+
+}
+

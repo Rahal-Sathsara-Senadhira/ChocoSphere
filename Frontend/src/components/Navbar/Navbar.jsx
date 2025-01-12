@@ -1,71 +1,76 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Navbar.css";
 import { DefaultAssets } from "../../assets/assets";
+import { Link } from "react-router-dom";
+import { StoreContext } from "../../context/StoreContext";
 
-const Navbar = () => {
+const Navbar = ({ setShowLogin }) => {
+  const [isNavbarActive, setIsNavbarActive] = useState(false);
+  const [isSearchFormActive, setIsSearchFormActive] = useState(false);
 
-    const [isNavbarActive, setIsNavbarActive] = useState(false);
-    const [isSearchFormActive, setIsSearchFormActive] = useState(false);
-  
-    const toggleNavbar = () => {
-      setIsNavbarActive(!isNavbarActive);
-      setIsSearchFormActive(false);
-    };
-  
-    const toggleSearchForm = () => {
-      setIsSearchFormActive(!isSearchFormActive);
-      setIsNavbarActive(false);
-    };
-  
-    
+  const { getTotalCartAmount } = useContext(StoreContext);
 
+  const toggleNavbar = () => {
+    setIsNavbarActive(!isNavbarActive);
+    setIsSearchFormActive(false);
+  };
 
+  const toggleSearchForm = () => {
+    setIsSearchFormActive(!isSearchFormActive);
+    setIsNavbarActive(false);
+  };
 
   return (
     <div className="Navbar">
-      <div className="Navbar-mobile">
-        <img src={DefaultAssets.HeaderMainLogo} alt="" />
-      </div>
-
-      <div className="Navbar-normal">
-
-        <div className={`ham-menu ${isNavbarActive ? "active" : ""}`}
-          onClick={toggleNavbar}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-
-        <div className="main-logo">
+      <Link to="/">
+        <div className="Navbar-mobile">
           <img src={DefaultAssets.HeaderMainLogo} alt="" />
         </div>
-
+      </Link>
+      <div className="Navbar-normal">
+        <div
+          className={`ham-menu ${isNavbarActive ? "active" : ""}`}
+          onClick={toggleNavbar}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <Link to="/">
+          <div className="main-logo">
+            <img src={DefaultAssets.HeaderMainLogo} alt="" />
+          </div>
+        </Link>
         <div className={`nav-container ${isNavbarActive ? "active" : ""}`}>
           <div className="nav">
-            <a href="">Home</a>
+            <Link to="/">Home</Link>
             <a href="">Chocolates</a>
             <a href="">Wrapper</a>
-            <a href="">Contact</a>
+            <a className="nav-last" href="">
+              Contact
+            </a>
           </div>
         </div>
 
         <div className="navbar-right">
-          <div className="Icon bascket">
-            <img src={DefaultAssets.BasketIcon} alt="" />
-            <div className="dot"></div>
-          </div>
-          <div className="Icon">
+          <Link to="/cart">
+            <div className="Icon bascket">
+              <img src={DefaultAssets.BasketIcon} alt="" />
+              <div className={getTotalCartAmount()?"dot":""}></div>
+            </div>
+          </Link>
+          <div className="Icon" onClick={() => setShowLogin(true)}>
             <img src={DefaultAssets.UserIcon} alt="" />
           </div>
           <div className="Icon" onClick={toggleSearchForm}>
             <img src={DefaultAssets.SearchIcon} alt="" />
           </div>
           <div className={`search-form ${isSearchFormActive ? "active" : ""}`}>
-          <input type="search" id="search-box" placeholder="Search here..." />
-          <label htmlFor="search-box" className="search-form-btn">
-            <i className="fi fi-br-search"></i>
-          </label>
-        </div>
+            <input type="search" id="search-box" placeholder="Search here..." />
+            <label htmlFor="search-box" className="search-form-btn">
+              <i className="fi fi-br-search"></i>
+            </label>
+          </div>
         </div>
       </div>
     </div>
