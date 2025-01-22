@@ -1,14 +1,22 @@
 import React, { useContext, useState } from "react";
 import "./Navbar.css";
 import { DefaultAssets } from "../../assets/assets";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { StoreContext } from "../../context/StoreContext";
 
 const Navbar = ({ setShowLogin }) => {
   const [isNavbarActive, setIsNavbarActive] = useState(false);
   const [isSearchFormActive, setIsSearchFormActive] = useState(false);
 
-  const { getTotalCartAmount } = useContext(StoreContext);
+  const { getTotalCartAmount, token, setToken } = useContext(StoreContext);
+
+const navigate = useNavigate();
+
+  const logOut = () => {
+    localStorage.removeItem("token");
+    setToken("")
+    navigate("/")
+  };
 
   const toggleNavbar = () => {
     setIsNavbarActive(!isNavbarActive);
@@ -56,12 +64,29 @@ const Navbar = ({ setShowLogin }) => {
           <Link to="/cart">
             <div className="Icon bascket">
               <img src={DefaultAssets.BasketIcon} alt="" />
-              <div className={getTotalCartAmount()?"dot":""}></div>
+              <div className={getTotalCartAmount() ? "dot" : ""}></div>
             </div>
           </Link>
-          <div className="Icon" onClick={() => setShowLogin(true)}>
-            <img src={DefaultAssets.UserIcon} alt="" />
-          </div>
+          {!token ? (
+            <div className="Icon" onClick={() => setShowLogin(true)}>
+              <img src={DefaultAssets.UserIcon} alt="" />
+            </div>
+          ) : (
+            <div className="Icon">
+              <div className="navbar-profile">
+                <img
+                  src={DefaultAssets.UserIcon}
+                  alt=""
+                  onClick={() => setShowLogin(true)}
+                />
+
+                <ul className="navbar-profile-dropdown">
+                  <li onClick={() => logOut()}>Log out</li>
+                </ul>
+              </div>
+            </div>
+          )}
+
           <div className="Icon" onClick={toggleSearchForm}>
             <img src={DefaultAssets.SearchIcon} alt="" />
           </div>

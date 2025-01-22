@@ -1,0 +1,22 @@
+.list-table-fomat{
+    display: grid;
+    grid-template-columns: .5fr 2fr 1fr 1fr .5fr;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 1px solid gray;
+    font-size: 15px;
+}
+
+.list-table-fomat.title{
+background-color: antiquewhite;
+}
+
+.list-table-fomat img{
+    width: 50px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
