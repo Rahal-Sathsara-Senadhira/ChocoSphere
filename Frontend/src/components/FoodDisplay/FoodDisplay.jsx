@@ -1,7 +1,6 @@
 import React, { useContext, useState } from "react";
 import "./FoodDisplay.css";
 import { StoreContext } from "../../context/StoreContext";
-import BreadCrumb from "../BreadCrumb/BreadCrumb";
 import FoodItem from "../FoodItem/FoodItem";
 
 const FoodDisplay = ({ category }) => {
@@ -9,7 +8,7 @@ const FoodDisplay = ({ category }) => {
 
   return (
     <div className="food-display" id="food-display">
-      <BreadCrumb />
+      
       <div className="food-display-list">
         {ProductAssets.map((item, index) => {
           if (category === "All" || category === item.category) {

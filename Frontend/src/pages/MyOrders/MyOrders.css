@@ -1,0 +1,66 @@
+.spacer{
+    height: 10rem;
+    width: 100%;
+  }
+
+.my-orders{
+    margin: 5rem 0;
+    padding: 0 10%;
+}
+
+.my-orders .container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.my-orders .my-orders-order{
+    display: grid;
+    grid-template-columns: .5fr 2fr 1fr 1fr 2fr 1fr;
+    align-items: center;
+    gap: 3rem;
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    box-shadow: 0rem .5rem 1rem .2rem rgba(0, 0, 0, 0.048);
+    border: 1px solid rgb(212, 212, 212);
+    background-color: #fdfdfd;
+}
+
+.my-orders h2{
+    font-size: 3rem;
+}
+.my-orders img{
+    height: 13rem;
+}
+.my-orders-order p span{
+    color: rgb(0, 198, 0);
+}
+.my-orders-order button{
+    border: none;
+    padding: 1rem 1.2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.my-orders-order button:hover{
+    background-color: #C19D56;
+    color: white;
+}
+
+@media (max-width: 881px) {
+    .spacer{
+        height: 16rem;
+        width: 100%;
+      }
+}
+
+@media (max-width: 681px) {
+    .my-orders .my-orders-order{
+        display: inline-block;
+    }
+    .my-orders .my-orders-order p{
+        margin-bottom: 1rem;
+    }
+}

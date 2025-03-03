@@ -22,6 +22,7 @@ import chef from "./Default Images/chef.png";
 import community from "./Default Images/community.png";
 import premium from "./Default Images/premium.png";
 import close from "./Default Images/close.png";
+import parcel from "./Default Images/parcel.png";
 
 
 import Cakes from "./Default Images/cake-1.jpg";
@@ -87,7 +88,8 @@ export const DefaultAssets = {
   WhyUs,
   chef,
   community,
-  close
+  close,
+  parcel
 };
 
 export const MenuAssets = [

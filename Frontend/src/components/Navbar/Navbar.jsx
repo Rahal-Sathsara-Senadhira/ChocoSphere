@@ -81,7 +81,9 @@ const navigate = useNavigate();
                 />
 
                 <ul className="navbar-profile-dropdown">
+                  <li onClick={() => navigate('/myorders')}>My Orders</li>
                   <li onClick={() => logOut()}>Log out</li>
+
                 </ul>
               </div>
             </div>
