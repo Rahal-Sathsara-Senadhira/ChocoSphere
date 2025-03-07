@@ -1,0 +1,53 @@
+﻿<Window x:Class="ChocolateAdmin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ChocolateAdmin" Height="600" Width="1000" Background="#eee">
+    
+    
+        
+
+        <!-- Left Navigation Bar -->
+        <Border>
+            
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+            <Border>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#C19A6B" Offset="1"/>
+                        <GradientStop Color="#9C784C" Offset="0.5"/>
+                        <GradientStop Color="#6B4423" Offset="0"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel Grid.Column="0" Background="Transparent">
+                    <Border Padding="10">
+                        <Image Source="/Images/FooterMainLogo.png" Stretch="Fill" />
+                    </Border>
+                    <Button Content="Dashboard" Style="{StaticResource NavButtonStyle}" Click="NavButton_Click" Tag="Dashboard" />
+                    <Button Content="Add Product" Style="{StaticResource NavButtonStyle}" Click="NavButton_Click" Tag="AddProduct" />
+                    <Button Content="View Products" Style="{StaticResource NavButtonStyle}" Click="NavButton_Click" Tag="ViewProducts" />
+                    <Button Content="Customer Details" Style="{StaticResource NavButtonStyle}" Click="NavButton_Click" Tag="CustomerDetails" />
+                    <Button Content="Order Control" Style="{StaticResource NavButtonStyle}" Click="NavButton_Click" Tag="OrderControl" />
+                    <!--<Button Content="Add Customer" Style="{StaticResource NavButtonStyle}" Click="NavButton_Click" Tag="AddCustomer" />-->
+                    <Button Content="Add Order" Style="{StaticResource NavButtonStyle}" Click="NavButton_Click" Tag="AddOrder" />
+                </StackPanel>
+
+            </Border>
+            <Frame Grid.Column="1" Name="MainFrame" NavigationUIVisibility="Hidden" />
+
+        </Grid>
+            
+                
+
+
+    </Border>
+        
+
+        <!-- Content Area -->
+    
+</Window>

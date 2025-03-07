@@ -42,6 +42,11 @@
   src: url(Fonts/Roboto-Medium.ttf);
 }
 
+@font-face {
+  font-family: BERNHC;
+  src: url(Fonts/BERNHC.ttf);
+}
+
 :root {
   --main-color: #C19D56;
   --main-font-color: #181616;
@@ -97,7 +102,7 @@ html::-webkit-scrollbar-thumb {
 
 
 body {
-  background-color: var(--body-background-color);
+  background-color: white;
   min-height: 100vh;
 }
 

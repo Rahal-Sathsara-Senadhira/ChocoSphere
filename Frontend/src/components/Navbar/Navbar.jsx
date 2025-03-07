@@ -52,11 +52,9 @@ const navigate = useNavigate();
         <div className={`nav-container ${isNavbarActive ? "active" : ""}`}>
           <div className="nav">
             <Link to="/">Home</Link>
-            <a href="">Chocolates</a>
-            <a href="">Wrapper</a>
-            <a className="nav-last" href="">
-              Contact
-            </a>
+            <Link to="/AboutUs">About Us</Link>
+            <Link to="/ContactUs">Contact</Link>
+            
           </div>
         </div>
 

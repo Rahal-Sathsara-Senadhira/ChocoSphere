@@ -1,0 +1,108 @@
+﻿<Page x:Class="ChocolateAdmin.AddOrderPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Add Order">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+
+        <!-- user Name section -->
+        <Border Grid.Row="0" Style="{StaticResource whiteBorder}" Margin="0,0,0,10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="200"/>
+                </Grid.ColumnDefinitions>
+
+
+                <TextBlock Text="Order Controlling" 
+                   VerticalAlignment="Center" 
+                   Padding="10" 
+                   FontSize="18" 
+                   FontFamily="Montserrat"
+                   Foreground="Gray"
+                   FontWeight="Bold"/>
+                <StackPanel Grid.Column="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="60"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Border Padding="10" Grid.Column="0">
+                            <Image Source="/Images/man.png" Stretch="Fill"/>
+                        </Border>
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            <TextBlock Text="Rahal Sathsara" FontWeight="Bold" FontSize="14"/>
+                            <TextBlock Text="CEO" FontWeight="SemiBold" Foreground="Gray" FontSize="11"/>
+                        </StackPanel>
+
+                    </Grid>
+                </StackPanel>
+
+            </Grid>
+        </Border>
+
+        <Border Margin="0" Padding="20" Grid.Row="1" Style="{StaticResource whiteBorder}">
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Customer Name -->
+                <TextBlock Text="Customer Name:" FontSize="13" FontWeight="SemiBold" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Margin="0,0,10,0" />
+                <ComboBox x:Name="CustomerNameComboBox" Grid.Row="0" Grid.Column="1" Margin="0,0,0,10" DisplayMemberPath="Name" SelectionChanged="CustomerNameComboBox_SelectionChanged" />
+
+                <!-- Address -->
+                <TextBlock Text="Address:" FontSize="13" FontWeight="SemiBold" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="0,0,10,0" />
+                <TextBox x:Name="AddressTextBox" Grid.Row="1" Grid.Column="1" Margin="0,0,0,10" IsReadOnly="True" />
+
+                <!-- Products Section -->
+                <TextBlock Text="Products:" FontSize="13" FontWeight="SemiBold" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Margin="0,0,10,0" />
+                <StackPanel x:Name="ProductsStackPanel" Grid.Row="2" Grid.Column="1" Margin="0,0,0,10">
+                    <!-- Product inputs will be added here dynamically -->
+                </StackPanel>
+
+                <!-- Add Product Button -->
+                <Button x:Name="AddProductButton" BorderThickness="0" Background="Black" FontSize="14" FontWeight="SemiBold" Foreground="White" Padding="15 10"  Content="Add Product" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right" Margin="0,10,0,20" Click="AddProductButton_Click" />
+
+                <!-- Total Price -->
+                <TextBlock Text="Total Price:" FontSize="13" FontWeight="SemiBold" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" Margin="0,0,10,0" />
+                <TextBox x:Name="TotalPriceTextBox" Grid.Row="4" Grid.Column="1" Margin="0,0,0,10" IsReadOnly="True" />
+
+                <!-- Order Status -->
+                <TextBlock Text="Order Status:" FontSize="13" FontWeight="SemiBold" Grid.Row="5" Grid.Column="0" VerticalAlignment="Center" Margin="0,0,10,0" />
+                <ComboBox x:Name="OrderStatusComboBox" FontSize="13" Grid.Row="5" Grid.Column="1" Margin="0,0,0,10">
+                    <ComboBoxItem Content="Pending" />
+                    <ComboBoxItem Content="Shipped" />
+                    <ComboBoxItem Content="Delivered" />
+                </ComboBox>
+
+                <!-- Calculate Total Button -->
+                <Button x:Name="CalculateTotalButton" FontSize="14" FontWeight="SemiBold" Padding="15 10" BorderThickness="0" Background="#4F8DFF" Foreground="White"  Content="Calculate Total" Grid.Row="6" Grid.Column="1" HorizontalAlignment="Right" Margin="0,10,0,0" Click="CalculateTotalButton_Click" />
+
+                <!-- Save Button -->
+                <Button x:Name="SaveButton" FontSize="14" FontWeight="SemiBold" Padding="15 10" BorderThickness="0" Background="Green" Foreground="White" Content="Save Order" Grid.Row="7" Grid.Column="1" HorizontalAlignment="Right" Margin="0,10,0,0" Click="SaveButton_Click" />
+            </Grid>
+
+        </Border>
+
+
+
+    </Grid>
+    
+</Page>

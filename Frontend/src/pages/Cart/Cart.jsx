@@ -8,6 +8,16 @@ const Cart = () => {
 
 const navigate = useNavigate()
 
+const getTotal = () => {
+  let Deliveryfee = 50;
+
+  let total = getTotalCartAmount();
+  if (total > 0) {
+    total = total + Deliveryfee;
+  }
+  return total;
+};
+
   return (
     <>
       <div className="spacer"></div>
@@ -63,7 +73,7 @@ const navigate = useNavigate()
                 <p>Sub total</p>
                 <span>
                   <span>Rs </span>
-                  {60}
+                  {getTotalCartAmount()}
                 </span>
               </div>
               <div className="cart-summery-content-content subtotal">
@@ -77,7 +87,7 @@ const navigate = useNavigate()
                 <p>Total</p>
                 <span>
                   <span>Rs </span>
-                  {getTotalCartAmount()}
+                  {getTotal()}
                 </span>
               </div>
               <div className="cart-button-holder">

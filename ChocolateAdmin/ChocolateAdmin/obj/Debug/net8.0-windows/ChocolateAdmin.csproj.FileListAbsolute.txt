@@ -1,0 +1,94 @@
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\ChocolateAdmin.exe
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\ChocolateAdmin.deps.json
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\ChocolateAdmin.runtimeconfig.json
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\ChocolateAdmin.dll
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\ChocolateAdmin.pdb
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\DnsClient.dll
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\MongoDB.Bson.dll
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\MongoDB.Driver.dll
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\SharpCompress.dll
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\Snappier.dll
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\ZstdSharp.dll
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.csproj.AssemblyReference.cache
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\DashboardPage.baml
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\MainWindow.baml
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\App.baml
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\AddProductPage.g.cs
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\CustomerDetailsPage.g.cs
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\DashboardPage.g.cs
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\OrderControlPage.g.cs
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ViewProductsPage.g.cs
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\App.g.cs
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin_MarkupCompile.cache
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\AddProductPage.baml
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\CustomerDetailsPage.baml
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\OrderControlPage.baml
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ViewProductsPage.baml
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.g.resources
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.GeneratedMSBuildEditorConfig.editorconfig
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.AssemblyInfoInputs.cache
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.AssemblyInfo.cs
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.csproj.CoreCompileInputs.cache
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\Chocolat.EFBD4E0F.Up2Date
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.dll
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\refint\ChocolateAdmin.dll
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.pdb
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.genruntimeconfig.cache
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ref\ChocolateAdmin.dll
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\AddCustomerPage.baml
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\AddOrderPage.baml
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\AddCustomerPage.g.cs
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\AddOrderPage.g.cs
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\LoginWindow.baml
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\LoginWindow.g.cs
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\LiveCharts.dll
+D:\semester 3\GUI\Projects\desktop application\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\ChocolateAdmin.exe
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\ChocolateAdmin.deps.json
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\ChocolateAdmin.runtimeconfig.json
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\ChocolateAdmin.dll
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\ChocolateAdmin.pdb
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\DnsClient.dll
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\LiveCharts.dll
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\MongoDB.Bson.dll
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\MongoDB.Driver.dll
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\SharpCompress.dll
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\Snappier.dll
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\AddCustomerPage.baml
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\AddOrderPage.baml
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\AddProductPage.baml
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\CustomerDetailsPage.baml
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\DashboardPage.baml
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\LoginWindow.baml
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\OrderControlPage.baml
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ViewProductsPage.baml
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\App.baml
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\AddCustomerPage.g.cs
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\AddOrderPage.g.cs
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\AddProductPage.g.cs
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\CustomerDetailsPage.g.cs
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\DashboardPage.g.cs
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\LoginWindow.g.cs
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\OrderControlPage.g.cs
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ViewProductsPage.g.cs
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin_MarkupCompile.cache
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.g.resources
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\Chocolat.EFBD4E0F.Up2Date
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.dll
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\refint\ChocolateAdmin.dll
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.pdb
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ChocolateAdmin.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\React Project\ChocolateAdmin\ChocolateAdmin\obj\Debug\net8.0-windows\ref\ChocolateAdmin.dll

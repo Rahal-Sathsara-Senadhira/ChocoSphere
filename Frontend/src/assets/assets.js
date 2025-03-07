@@ -23,14 +23,21 @@ import community from "./Default Images/community.png";
 import premium from "./Default Images/premium.png";
 import close from "./Default Images/close.png";
 import parcel from "./Default Images/parcel.png";
-
+import aboutushead from "./Default Images/AboutUs_head.jpg";
+import aboutus_sideimage from "./Default Images/aboutus_sideimage.jpg";
+import abouthistorybg from "./Default Images/abouthistorybg.jpg";
+import dp1 from "./Default Images/dp1.jpg";
+import dp2 from "./Default Images/dp2.jpg";
+import dp3 from "./Default Images/dp3.jpg";
+import quatations from "./Default Images/quatations.png";
+import contactUsbg from "./Default Images/contactUsbg.jpg";
+import contactside from "./Default Images/contactside.jpg";
 
 import Cakes from "./Default Images/cake-1.jpg";
 import ChocolateSnackers from "./Default Images/chocolate snackers.jpg";
 import ChocolateToffees from "./Default Images/chocolate-toffees.jpg";
 import DiaryMilk from "./Default Images/Diary milk Bucket.jpg";
 import Gifts from "./Default Images/overwelming gifts.jpg";
-
 import Product_1 from "./Product Images/diary milk 75g.jpg";
 import Product_2 from "./Product Images/diary milk 75g.jpg";
 import Product_3 from "./Product Images/diary milk 75g.jpg";
@@ -89,7 +96,16 @@ export const DefaultAssets = {
   chef,
   community,
   close,
-  parcel
+  parcel,
+  aboutushead,
+  aboutus_sideimage,
+  abouthistorybg,
+  dp1,
+  dp2,
+  dp3,
+  quatations,
+  contactUsbg,
+  contactside
 };
 
 export const MenuAssets = [

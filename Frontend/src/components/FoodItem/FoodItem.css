@@ -5,6 +5,8 @@
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.053);
   transition: 0.3s;
   animation: fadein 1s;
+  background-color: white;
+
 }
 
 .food-item-img{
